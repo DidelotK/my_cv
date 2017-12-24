@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/img/icons/favicon.png">
+
+    <title>Didelot Kévin CV</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script>
+    <script src="assets/js/Chart.js"></script>
+    <script src="assets/js/i18next.min.js" ></script>
+    <script src="assets/js/jquery-i18next.min.js" ></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body data-spy="scroll" data-offset="0" data-target="#nav" id="translation">
+
+<div id="section-topbar">
+    <div id="topbar-inner">
+        <div class="container">
+            <div class="row">
+                <div class="dropdown">
+                    <ul id="nav" class="nav">
+                        <li class="menu-item"><a id="aboutLink" class="smoothScroll link" href="#about" data-i18n="navbar.about"></a></li>
+                        <li class="menu-item"><a id="resumeLink" class="smoothScroll link" href="#resume" data-i18n="navbar.resume"></a></li>
+                        <li class="menu-item"><a id="projectsLink" class="smoothScroll link" href="#projects" data-i18n="navbar.projects"></a></li>
+                        <li class="menu-item"><a id="contactLink" class="smoothScroll link" href="#contact" data-i18n="navbar.contact"></a></li>
+                        <li class="menu-item"><a class="smoothScroll" title="Français" onclick="i18next.changeLanguage('fr')">FR</a></li>
+                        <li class="menu-item"><a class="smoothScroll" title="English" onclick="i18next.changeLanguage('en')">EN</a></li>
+                    </ul><!--/ uL#nav -->
+                </div><!-- /.dropdown -->
+                <div class="clear"></div>
+            </div><!--/.row -->
+        </div><!--/.container -->
+
+        <div class="clear"></div>
+    </div><!--/ #topbar-inner -->
+</div><!--/ #section-topbar -->
+
+<div id="headerwrap">
+    <div id="headerContainer" class="container">
+        <div class="row centered">
+            <div class="col-lg-12">
+                <h1>Kévin Didelot</h1>
+                <h3 data-i18n="headerwrap.title"></h3>
+            </div><!--/.col-lg-12 -->
+        </div><!--/.row -->
+    </div><!--/.container -->
+</div><!--/.#headerwrap -->
+
+<section id="about" name="about"></section>
+<div id="intro">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-2 col-lg-offset-1">
+                <h5 data-i18n="about.title"></h5>
+            </div>
+            <div class="col-lg-6">
+                <p data-i18n="about.description"></p>
+            </div>
+            <div class="col-lg-3">
+                <p><a href="#"><i class="icon-file"></i></a> <sm data-i18n="about.downloadPdf"></sm></p>
+            </div>
+
+        </div><!--/.row -->
+    </div><!--/.container -->
+</div><!--/ #intro -->
+
+
+<section id="resume" name="resume"></section>
+<!--EDUCATION DESCRIPTION -->
+<div id="education" class="container desc">
+    <div class="row">
+
+        <div class="col-lg-2 col-lg-offset-1">
+            <h5 data-i18n="education.title"></h5>
+        </div>
+
+        <div class="col-lg-6">
+            <p><t data-i18n="education.central.title"></t><br/>
+                <sub data-i18n="education.central.place"></sub><br/>
+                <i data-i18n="education.central.duration"></i>
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p><sm data-i18n="education.central.graduation"></sm><br/>
+                <imp><sm data-i18n="education.central.state"></sm></imp>
+            </p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+            <p><t data-i18n="education.esme.title"></t><br/>
+                <sub data-i18n="education.esme.place"></sub><br/>
+                <i data-i18n="education.esme.duration"></i>
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p><sm data-i18n="education.esme.graduation"></sm></p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+            <p><t data-i18n="education.vinci.title"></t><br/>
+                <sub data-i18n="education.vinci.place"></sub> <br/>
+                <i data-i18n="education.vinci.duration"></i>
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <p><sm sm data-i18n="education.vinci.graduation"></sm></p>
+        </div>
+
+    </div><!--/.row -->
+    <br>
+    <hr>
+</div><!--/.container -->
+
+
+<!--WORKS DESCRIPTION -->
+<div id="works" class="container desc">
+    <div class="row">
+
+        <div class="col-lg-2 col-lg-offset-1">
+            <h5 data-i18n="works.title"></h5>
+        </div>
+        <div class="col-lg-6">
+            <p><t data-i18n="works.capgemini.title"></t><br/>
+                <sub data-i18n="works.capgemini.company"></sub> <br/>
+            </p>
+            <p><more data-i18n="works.capgemini.description"></more></p>
+        </div>
+        <div class="col-lg-3">
+            <p><sm data-i18n="works.capgemini.period"></sm></p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+            <p><t data-i18n="works.steamulo.title"></t><br/>
+                <sub data-i18n="works.steamulo.company"></sub> <br/>
+            </p>
+            <p><more data-i18n="[html]works.steamulo.description"></more></p>
+        </div>
+        <div class="col-lg-3">
+            <p><sm data-i18n="works.steamulo.period"></sm></p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+            <p><t data-i18n="works.acadomia.title"></t><br/>
+                <sub data-i18n="works.acadomia.company"></sub> <br/>
+            </p>
+            <p><more data-i18n="[html]works.acadomia.description"></more></p>
+        </div>
+        <div class="col-lg-3">
+            <p><sm data-i18n="works.acadomia.period"></sm></p>
+        </div>
+    </div><!--/.row -->
+    <br>
+    <hr>
+</div><!--/.container -->
+
+<!--SKILLS DESCRIPTION -->
+<div id="skillswrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-lg-offset-1">
+                <h5 data-i18n="skills.title"></h5>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="javascript" height="130" width="130"></canvas>
+                <p>Javascript</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 80,
+                            color:"#c71818"
+                        },
+                        {
+                            value : 20,
+                            color : "#ecf0f1"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="python" height="130" width="130"></canvas>
+                <p>Python</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 70,
+                            color:"#c71818"
+                        },
+                        {
+                            value : 30,
+                            color : "#ecf0f1"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("python").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="linux" height="130" width="130"></canvas>
+                <p>Linux</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 65,
+                            color:"#c71818"
+                        },
+                        {
+                            value : 35,
+                            color : "#ecf0f1"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("linux").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+
+            <div class="col-lg-3 col-lg-offset-3 centered">
+                <canvas id="ansible" height="130" width="130"></canvas>
+                <p>Ansible</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 65,
+                            color:"#c71818"
+                        },
+                        {
+                            value : 35,
+                            color : "#ecf0f1"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("ansible").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="docker" height="130" width="130"></canvas>
+                <p>Docker</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 65,
+                            color:"#c71818"
+                        },
+                        {
+                            value : 35,
+                            color : "#ecf0f1"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("docker").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+            <div class="col-lg-3 centered">
+                <canvas id="openstack" height="130" width="130"></canvas>
+                <p>Openstack</p>
+                <br>
+                <script>
+                    var doughnutData = [
+                        {
+                            value: 45,
+                            color:"#c71818"
+                        },
+                        {
+                            value : 55,
+                            color : "#ecf0f1"
+                        }
+                    ];
+                    var myDoughnut = new Chart(document.getElementById("openstack").getContext("2d")).Doughnut(doughnutData);
+                </script>
+            </div>
+
+        </div><!--/.row -->
+        <br>
+    </div><!--/.container -->
+</div><!--/ #skillswrap -->
+
+
+
+<section id="projects" name="projects"></section>
+<!--PROJECTS DESCRIPTION -->
+<div class="container desc">
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+            <h5 data-i18n="projects.title"></h5>
+        </div>
+        <div class="col-lg-6">
+            <a href="https://github.com/DidelotK/openstack_vms">
+                <p><img class="img-responsive" src="assets/img/openstack_image.jpg" alt=""></p>
+            </a>
+        </div>
+        <div class="col-lg-3">
+            <p data-i18n="projects.openstack.title"></p>
+            <p><more><sub data-i18n="projects.openstack.description"></sub><br/><br/>
+                <sm data-i18n="[html]projects.openstack.tags.poc"></sm>
+                <sm data-i18n="[html]projects.openstack.tags.devops"></sm>
+                <sm data-i18n="[html]projects.openstack.tags.openstack"></sm>
+                <sm data-i18n="[html]projects.openstack.tags.linux"></sm>
+                <sm data-i18n="[html]projects.openstack.tags.vagrant"></sm>
+                <sm data-i18n="[html]projects.openstack.tags.ansible"></sm>
+            </more>
+            </p>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3">
+            <a href="https://github.com/DidelotK/react_express_continuous_integration/tree/jenkins-deploy">
+                <p><img class="img-responsive" src="assets/img/jenkins_image.png" alt=""></p>
+            </a>
+        </div>
+        <div class="col-lg-3">
+            <p data-i18n="projects.jenkins.title"></p>
+            <p><more><sub data-i18n="projects.jenkins.description"></sub><br/><br/>
+                <sm data-i18n="[html]projects.jenkins.tags.devops"></sm>
+                <sm data-i18n="[html]projects.jenkins.tags.jenkins"></sm>
+                <sm data-i18n="[html]projects.jenkins.tags.linux"></sm>
+                <sm data-i18n="[html]projects.jenkins.tags.vagrant"></sm>
+                <sm data-i18n="[html]projects.jenkins.tags.ansible"></sm>
+                <sm data-i18n="[html]projects.jenkins.tags.docker"></sm>
+            </more>
+            </p>
+        </div>
+
+    </div><!--/.row -->
+    <br>
+    <br>
+</div><!--/.container -->
+
+
+
+<section id="contact" name="contact"></section>
+<!--FOOTER DESCRIPTION -->
+<div id="footwrap">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-2 col-lg-offset-1">
+                <h5 data-i18n="contact.title"></h5>
+            </div>
+            <div class="col-lg-6">
+                <p><t>Email</t><br/>
+                    work@didelotkev.ovh <br/>
+                </p>
+                <p><t data-i18n="contact.adress"></t><br/>
+                    56 boulevard de brandebourg <br/>
+                    94200 <br/>
+                    Ivry-Sur-Seine, France. <br/>
+                </p>
+                <p><t data-i18n="contact.phone"></t><br/>
+                    +33 7 82 80 03 70<br/>
+                </p>
+            </div>
+            <div class="col-lg-3">
+                <p><sm data-i18n="contact.social"></sm></p>
+                <p>
+                    <a href="https://www.facebook.com/kevin.didelot.5"><i class="icon-facebook"></i></a>
+                    <a href="https://github.com/DidelotK/"><i class="icon-github"></i></a>
+                    <a href="https://www.linkedin.com/in/kevin-didelot/"><i class="icon-linkedin"></i></a>
+                </p>
+            </div>
+        </div><!--/.row -->
+    </div><!--/.container -->
+</div><!--/ #footer -->
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/bootstrap.js"></script>
+
+<script src="main.js"></script>
+</body>
+</html>
