@@ -8,7 +8,6 @@ COPY src/ /var/www/mycv
 # Configure nginx
 COPY nginx_conf/nginx.conf /etc/nginx/nginx.conf
 
-VOLUME /var/www/mycv
 VOLUME /var/log/nginx
 
 EXPOSE 80
